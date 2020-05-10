@@ -1,4 +1,7 @@
-# Plot 3
+# Assignment-1: Exploratory Data Analysis
+#
+# Plot 4
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 # Prerequisite: 
 # Proper directory is set
 # Loading "dplyr" package
@@ -40,7 +43,7 @@
                           xlab = "", ylab = "Energy sub metering")
       lines(DateTime, Sub_metering_2, type = "l", col = "red")
       lines(DateTime, Sub_metering_3, type = "l", col = "blue")
-      legend("topright", col = c("black","red","blue"), lty = 1, border = NULL, 
+      legend("topright", col = c("black","red","blue"), lty = 1, bty = "n", 
              legend = c("Sub_metring_1","Sub_metring_2","Sub_metring_3"))
   # Ploting of Global Active Power vs DateTime:   
     plot(DateTime, Global_reactive_power, xlab = "datetime", type = "l")
